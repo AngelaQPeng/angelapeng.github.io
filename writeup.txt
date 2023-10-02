@@ -1,0 +1,10 @@
+For our customized interactive experiences, we've introduced various engaging elements, such as the test table and exam booklet. Players have the opportunity to interact with the test booklet, engaging in a brief quiz session. Each quiz question features four answer choices. Once the player completes the quiz, they receive a score. If they desire, they can restart the test at their convenience. If a player is dissatisfied with their score, we've introduced an exciting feature: the rage room.
+
+Inside the rage room, players can unleash their frustration by destroying objects using one of three available tools: an axe, a baseball bat, or a hammer. The room is filled with a variety of items, including televisions, cars, toilets, and bottles. Each object reacts dynamically to the player's strikes, emitting corresponding sounds and exploding into particles upon impact. For instance, hitting the car triggers small fire particles, adding to the immersive experience.
+
+To enhance the player's experience, we've incorporated a reset mechanism. Near the exit door, there's a conspicuous big red reset button. When the player is done playing, pressing this button restores every object to its original state, ready for the next exciting session. This feature ensures that each interaction in the rage room is fresh and enjoyable for every player.
+
+Github Links:
+Angela Peng:
+
+Andy Yang:

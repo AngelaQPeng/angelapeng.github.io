@@ -19,10 +19,13 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            max-height: 600px; /* Set a fixed height for the container */
         }
-    
+
         .painting {
             margin: 10px;
+            max-width: 100%; /* Make sure images don't exceed their natural size */
+            height: auto; /* Maintain the aspect ratio */
         }
     </style>
     
@@ -58,9 +61,9 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../about_me.html">About Me</a></li>
-                <li><a href="../my_projects/my_projects.html">My Projects</a></li>
+                <!-- <li><a href="../my_projects/my_projects.html">My Projects</a></li>
                 <li><a href="my_artworks.html">My Artworks</a></li>
-                <li><a href="../elements.html">Elements</a></li>
+                <li><a href="../elements.html">Elements</a></li> -->
             </ul>
         </nav>
 
@@ -69,26 +72,34 @@
             <div class="inner">
                 <h1>Paintings</h1>
                 <h3>
-                    A collection of paintings done by Angela Peng
+                    A collection of paintings & drawings created by Angela Peng
                 </h3>
                 
-                <div class="painting-container">
-                    <img src="painting1.jpg" alt="Painting 1" class="painting" width="300" height="200">
-                    <img src="painting2.jpg" alt="Painting 2" class="painting" width="200" height="300">
-                    <img src="painting3.jpg" alt="Painting 3" class="painting" width="400" height="250">
-                    <!-- Add more paintings with different sizes as needed -->
+                <!-- <img src=../images/artworks/designer_fruit.jpg alt="Painting 1" class="painting">
+                <img src=../images/artworks/friendship.jpg alt="Painting 2" class="painting">
+                <img src=../images/artworks/domino_effect.jpg alt="Painting 3" class="painting"> -->
+                <div class="box alt">
+                    <!-- <div class="row gtr-uniform"> -->
+                    <div class="row aln-center">
+                        <div class="col-4"><span class="image main"><img src="../images/artworks/friendship.jpg" alt="" /></span></div>
+                        <div class="col-4"><span class="image main"><img src="../images/artworks/designer_fruit.jpg" alt="" /></span>
+                        </div>
+                        <div class="col-4"><span class="image main"><img src="../images/artworks/swan.jpg" alt="" /></span>
+                        </div>
+                        
+                        <div class="col-4"><span class="image main"><img src="../images/artworks/hong_kong.jpg" alt="" /></span>
+                        </div>
+                        <div class="col-4"><span class="image main"><img src="../images/artworks/peony.jpg" alt="" /></span>
+                        </div>
+                        <div class="col-4"><span class="image main"><img src="../images/artworks/domino_effect.jpg" alt="" /></span>
+                        </div>
+                        <!-- <div class="col-4"><span class="image main"><img src="../images/artworks/cards.jpg" alt="" /></span>
+                        </div> -->
+                    </div>
                 </div>
-                <!-- <span class="image main"><img src="../images/pic13.jpg" alt="" /></span>
-                <p>
-                    An immersive virtual reality simulation video game inspired by "Job Simulator" in which players step
-                    into the shoes
-                    of Computer Science students facing comical
-                    and exaggerated challenges that mimic the real-life experiences of CS students at the University of
-                    Michigan, Ann
-                    Arbor.<br>
-                </p> -->
             </div>
         </div>
+       
 
         <!-- Footer -->
         <footer id="footer">

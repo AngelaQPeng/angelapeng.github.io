@@ -14,6 +14,18 @@
     <noscript>
         <link rel="stylesheet" href="../assets/css/noscript.css" />
     </noscript>
+    <style>
+        .painting-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .painting {
+            margin: 10px;
+        }
+    </style>
+    
 </head>
 
 <body class>
@@ -56,10 +68,17 @@
         <div id="main">
             <div class="inner">
                 <h1>Paintings</h1>
-                <p>
+                <h3>
                     A collection of paintings done by Angela Peng
-                </p>
-                <span class="image main"><img src="../images/pic13.jpg" alt="" /></span>
+                </h3>
+                
+                <div class="painting-container">
+                    <img src="painting1.jpg" alt="Painting 1" class="painting" width="300" height="200">
+                    <img src="painting2.jpg" alt="Painting 2" class="painting" width="200" height="300">
+                    <img src="painting3.jpg" alt="Painting 3" class="painting" width="400" height="250">
+                    <!-- Add more paintings with different sizes as needed -->
+                </div>
+                <!-- <span class="image main"><img src="../images/pic13.jpg" alt="" /></span>
                 <p>
                     An immersive virtual reality simulation video game inspired by "Job Simulator" in which players step
                     into the shoes
@@ -67,7 +86,7 @@
                     and exaggerated challenges that mimic the real-life experiences of CS students at the University of
                     Michigan, Ann
                     Arbor.<br>
-                </p>
+                </p> -->
             </div>
         </div>
 

@@ -2729,12 +2729,20 @@ input, select, textarea {
 				background-color: #8499e7;
 			}
 
-			.tiles article.style7>.image:before {
+			.tiles article.style7 > .image:before {
 				background-color: #AFC4E5;
 			}
 
 			.tiles article.style8 > .image:before {
 				background-color: #B7D7D7;
+			}
+
+			.tiles article.style9 > .image:before {
+				background-color: #868876;
+			}
+
+			.tiles article.style10 > .image:before {
+				background-color: #FFD53E;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
